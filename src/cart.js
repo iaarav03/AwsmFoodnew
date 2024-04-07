@@ -24,13 +24,13 @@ const Cart = () => {
   if (cartitem.length === 0) {
     return (
       <div className="flex grow min-h-[60vh] justify-center items-center">
-        <p className="font-serif text-4xl">Your cart is empty!</p>
+        <p className="font-serif text-4xl text-black">Your cart is empty!</p>
       </div>
     );
   }
   return (
     <div className="md:flex flex-row">
-      <div className="w-1/2 pl-10 mt-7">
+      <div className="md:w-1/2 md:pl-10 md:mt-7">
         <ul className="basis-7/12">
           {cartitem &&
             cartitem.map((item) => {
@@ -108,7 +108,7 @@ const Cart = () => {
             })}
         </ul>
       </div>
-      <div className="w-[40vw]">
+      <div className="md:w-[40vw]">
         <OrderSummary />
       </div>
     </div>

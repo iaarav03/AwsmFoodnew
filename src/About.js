@@ -8,8 +8,8 @@ const About = () => {
             
             <div class="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
                 <div class="w-full lg:w-6/12">
-                    <h2 class="w-full font-bold lg:text-4xl text-3xl lg:leading-10 dark:text-white leading-9">What’s the AwsmFoodz story?</h2>
-                    <p class="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6">Welcome to AwsmFoodz, where our story is as delightful as our dishes! Born out of a passion for good food and a commitment to convenience, AwsmFoodz started as a dream to bring exceptional culinary experiences right to your doorstep. Our journey began with a simple idea – to create a platform that seamlessly connects food enthusiasts with a diverse array of top-notch eateries. What sets AwsmFoodz apart is not just the delicious fare we deliver, but the shared love for culinary craftsmanship and the joy of savoring a perfect bite. With a focus on quality, efficiency, and a touch of culinary magic, AwsmFoodz is not just a food delivery service; it's a celebration of flavors, a fusion of convenience and culinary excellence, ensuring every meal is a memorable experience. Join us on this gastronomic adventure, and let AwsmFoodz be the secret ingredient that transforms your dining moments into unforgettable celebrations.</p>
+                    <h2 class="w-full font-bold lg:text-4xl text-3xl text-black lg:leading-10 dark:text-white leading-9">What’s the AwsmFoodz story?</h2>
+                    <p class="font-normal text-base leading-6 text-black mt-6">Welcome to AwsmFoodz, where our story is as delightful as our dishes! Born out of a passion for good food and a commitment to convenience, AwsmFoodz started as a dream to bring exceptional culinary experiences right to your doorstep. Our journey began with a simple idea – to create a platform that seamlessly connects food enthusiasts with a diverse array of top-notch eateries. What sets AwsmFoodz apart is not just the delicious fare we deliver, but the shared love for culinary craftsmanship and the joy of savoring a perfect bite. With a focus on quality, efficiency, and a touch of culinary magic, AwsmFoodz is not just a food delivery service; it's a celebration of flavors, a fusion of convenience and culinary excellence, ensuring every meal is a memorable experience. Join us on this gastronomic adventure, and let AwsmFoodz be the secret ingredient that transforms your dining moments into unforgettable celebrations.</p>
                 </div>
                 <div class="w-full lg:w-6/12">
                     <img class="lg:block hidden w-full" src="https://i.ibb.co/RjNH7QB/Rectangle-122-1.png" alt="people discussing on board" />
@@ -32,15 +32,15 @@ const About = () => {
             </div>
             <div class="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
                 <div>
-                    <p class="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 dark:text-white mt-6">Founded by Aarav</p>
+                    <p class="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-black mt-6">Founded by Aarav</p>
                    
                 </div>
                 <div>
-                    <p class="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 dark:text-white mt-6">50M montly enrichments</p>
+                    <p class="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-black mt-6">50M montly enrichments</p>
                     
                 </div>
                 <div class="">
-                    <p class="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 dark:text-white mt-6">400k User</p>
+                    <p class="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-black mt-6">400k User</p>
                     
                 </div>
             </div>
